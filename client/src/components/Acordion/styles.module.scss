@@ -1,0 +1,13 @@
+.Toggle{
+    background-color: #ee5488;
+    border: 0;
+    border-radius: 3px;
+    &:focus{
+        border:0;
+        outline: 0;
+    }
+}
+
+.IconColor{
+    color: #ffffff;
+}

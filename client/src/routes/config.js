@@ -1,4 +1,4 @@
-const { default: Home } = require("../pages/home");
+import Home  from "../pages/home";
 
 const config = [
     {
