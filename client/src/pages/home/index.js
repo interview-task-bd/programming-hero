@@ -4,7 +4,8 @@ import styles from './styles.module.scss';
 import v from '../../assets/video/a.mp4';
 import { Player,BigPlayButton } from 'video-react';
 import "video-react/dist/video-react.css";
-import Module from '../../components/Acordion';
+import MilestoneToggler from '../../components/MilestoneAccordion';
+import Module from '../../components/ModuleAccordion';
 
 
 const Home =()=>{
@@ -17,7 +18,7 @@ const Home =()=>{
                         fluid={true}
                         playsInline
                         poster="/assets/poster.png"
-                        src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+                        src={v}
                      >
                          <BigPlayButton position="center" />
                      </Player>
@@ -29,15 +30,15 @@ const Home =()=>{
                 </Col>
                 <Col md={4}>
                     <Jumbotron className="mt-5">
-                        <Module title="module 1">
-                            djksjdk
-                        </Module>
-                        <Module title ="module 2">
-                          jdlkjsljdlsds
-                        </Module>
-                        <Module title="Module 3">
-                           dkskdsk;dks;kd;s
-                        </Module>
+                        <MilestoneToggler title="Milestone 1">
+                            <Module title="module 1" />
+                        </MilestoneToggler>
+                        <MilestoneToggler title ="module 2">
+                        <Module/>
+                        </MilestoneToggler>
+                        <MilestoneToggler title="Module 3">
+                        <Module/>
+                        </MilestoneToggler>
 
                     </Jumbotron>
                 </Col>
