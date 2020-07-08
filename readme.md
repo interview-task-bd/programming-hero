@@ -1,3 +1,9 @@
+# used Tool
+## ExpressJs, Typescript, ReactJs, Redux , MongoDB, Aws, react-route-dom & Martial ui
+
+
+
+
 download repo 
 ```git clone git@github.com:interview-task-bd/programming-hero.git```
 run after download project
@@ -8,9 +14,10 @@ run after download project
 
 
 ```schemas```
+you can also view with draw 
 
-
-
+https://drive.google.com/file/d/15NxUZ5ovraq1AjMRB2iBQy_gGpSI2-dp/view?usp=sharing
+you can see here data schema for better graphical understand
 ```
 userSchema.ts
 import {model,Schema} from 'mongoose';
