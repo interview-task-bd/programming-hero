@@ -30,7 +30,7 @@ const Module=({
     return(
         <Accordion>
         <Card>
-             <div style={{backgroundColor:"#eee"}} className="row p-3">
+             <div style={{backgroundColor:"#eee", borderRadius:'4px'}} className="row p-3">
                <div className="col-6 d-flex justify-content-start align-items-center">{title}</div>  
                <div className="col-6 d-flex justify-content-end align-items-center">
                    <MilestoneToggler eventKey="0"/>
