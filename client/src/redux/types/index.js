@@ -1,0 +1,12 @@
+export const LOGIN ="LOGIN";
+export const REGISTER ='REGISTER';
+export const FORGET_PASSWORD ='FORGET_PASSWORD';
+export const UPLOAD ="UPLOAD";
+export const ENROLL='ENROLL';
+export const START_PLAY='START_PLAY';
+export const STOP_PLAY = 'STOP_PLAY';
+export const PAUSE = 'PAUSE';
+export const START_QUIZ= 'START_QUIZ';
+export const END_QUIZ='END_QUIZ';
+export const FETCH_VIDEO='FETCH_VIDEO';
+export const TOTAL_MARKS='TOTAL_MARKS';
